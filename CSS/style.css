@@ -108,7 +108,7 @@ body {
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("/Jogo\ da\ velha/images/x-removebg-preview.png");
+    background-image: url("/jogo-da-velha/images/x-removebg-preview.png");
 }
 
 .o {
@@ -116,7 +116,7 @@ body {
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("/Jogo\ da\ velha/images/circle-removebg-preview.png");
+    background-image: url("/jogo-da-velha/images/circle-removebg-preview.png");
 }
 
 .btns {
@@ -136,7 +136,7 @@ body {
     color: #21eaeb;
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1100px) {
     .o {
         position: relative;
         top: 20%;
