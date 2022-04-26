@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/style.css" rel="stylesheet">
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+
+    <div id="score">
+        <h2>PLACAR</h2>
+        <div id="scoreboard">
+            <img src="./images/circle-removebg-preview.png" alt="">
+            <div id="divo">0</div>
+            <img src="./images/X-removebg-preview.png" alt="">
+            <div id="divx">0</div>
+        </div>
+    </div>
+    <div class="board">
+        <h1>JOGO DA VELHA</h1>
+        <div class="boardGame">
+            <div class="cell" id="0"></div>
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+        </div>
+    </div>
+
+    <div class="btns">
+        <button id="restartBTN">Reinicie o jogo</button>
+        <button id="scoreCleanBTN">Zere o placar</button>
+    </div>
+
+    <script src="./Scripts/game.js"></script>
+    <script src="./Scripts/interface.js"></script>
+</body>
+
+</html>
